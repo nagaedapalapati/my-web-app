@@ -6,8 +6,8 @@ phases:
   build:
     commands:
       - echo "Building the application..."
-      - npm install # or pip install, etc.
-      - npm run build # or other build commands
+      # - npm install # or pip install, etc.
+      # - npm run build # or other build commands
 artifacts:
   files:
     - '**/*' # Include all files in the artifact
